@@ -1,0 +1,9 @@
+# Dependency files/directories
+node_modules/
+
+# Gatsby files/directories
+.cache/
+public
+
+# Mac files/directories
+.DS_Store

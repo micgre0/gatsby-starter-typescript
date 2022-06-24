@@ -1,0 +1,7 @@
+{
+  "{source/**/*.[jt]s?(x),*.[jt]s?(x)}": [
+    "prettier --list-different",
+    "eslint"
+  ],
+  "{source/**/*.json,*.json}": "prettier --list-different"
+}

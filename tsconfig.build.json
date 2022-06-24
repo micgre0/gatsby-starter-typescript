@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  // Specifies files to include/exclude
+  "include": [],
+  "exclude": []
+}
