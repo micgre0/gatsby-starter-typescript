@@ -10,6 +10,7 @@
     "lint": "eslint \"{source/**/*.[jt]s?(x),*.[jt]s?(x)}\"",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --write \"{source/**/*.{[jt]s?(x),json},*.{[jt]s?(x),json}}\"",
+    "format-check": "prettier --check \"{source/**/*.{[jt]s?(x),json},*.{[jt]s?(x),json}}\"",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "start:development": "npm run type-check:watch & npm run develop",
