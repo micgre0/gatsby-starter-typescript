@@ -5,5 +5,8 @@ node_modules/
 .cache/
 public
 
+# ESLint files/directories
+.eslintcache
+
 # Mac files/directories
 .DS_Store
