@@ -10,7 +10,8 @@
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "project": "./tsconfig.json"
   },
   "plugins": [
     "@typescript-eslint",
@@ -20,6 +21,7 @@
     "jest",
     "testing-library",
     "jest-dom",
+    "unicorn",
     "import"
   ],
   "extends": [
@@ -30,10 +32,15 @@
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:jest/recommended",
+    "plugin:unicorn/recommended",
     "plugin:import/recommended",
     "plugin:testing-library/react",
     "plugin:jest-dom/recommended"
   ],
+  "rules": {
+    "unicorn/filename-case": "off",
+    "unicorn/prefer-module": "off"
+  },
   "settings": {
     "react": {
       "version": "detect"
