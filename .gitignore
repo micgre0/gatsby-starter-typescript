@@ -11,3 +11,6 @@ public/
 
 # Mac files/directories
 .DS_Store
+
+# Test files/directories
+coverage/
