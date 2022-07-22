@@ -3,9 +3,10 @@ node_modules/
 
 # Gatsby files/directories
 .cache/
-public
+public/
 
 # ESLint files/directories
+# ESLint side
 .eslintcache
 
 # Mac files/directories
