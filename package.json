@@ -27,8 +27,8 @@
     }
   },
   "dependencies": {
-    "gatsby": "4.19.2",
-    "gatsby-plugin-page-creator": "4.19.0",
+    "gatsby": "4.20.0",
+    "gatsby-plugin-page-creator": "4.20.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tsconfig-paths-webpack-plugin": "4.0.0"
