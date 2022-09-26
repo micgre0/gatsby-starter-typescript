@@ -22,7 +22,8 @@
     "testing-library",
     "jest-dom",
     "unicorn",
-    "import"
+    "import",
+    "eslint-plugin-tsdoc"
   ],
   "extends": [
     "eslint:recommended",
@@ -39,7 +40,8 @@
   ],
   "rules": {
     "unicorn/filename-case": "off",
-    "unicorn/prefer-module": "off"
+    "unicorn/prefer-module": "off",
+    "tsdoc/syntax": "warn"
   },
   "settings": {
     "react": {
